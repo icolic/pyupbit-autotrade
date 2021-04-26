@@ -2,8 +2,8 @@ import time
 import pyupbit
 import datetime
 
-access = "your-access"
-secret = "your-secret"
+access = "oolYdqs1ZQdJoOxDED2KzC7VhRvRsxWFDSxBXkSN"
+secret = "PZspNJ552n4JdWNxH2msvaIPzbnZxKwY4scdK5XI"
 
 def get_target_price(ticker, k):
     """변동성 돌파 전략으로 매수 목표가 조회"""
@@ -32,7 +32,7 @@ def get_current_price(ticker):
     return pyupbit.get_orderbook(tickers=ticker)[0]["orderbook_units"][0]["ask_price"]
 
 # 로그인
-upbit = pyupbit.Upbit(access, secret)
+upbit = pyupbit.Upbit(icolic@naver.com, ghdwnsdyd0594)
 print("autotrade start")
 
 # 자동매매 시작
